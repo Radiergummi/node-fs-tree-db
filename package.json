@@ -1,0 +1,17 @@
+{
+  "name": "node-fs-tree-db",
+  "version": "0.0.1",
+  "main": "./distribution/index.js",
+  "scripts": {
+    "build": "babel library --presets babel-preset-es2015 --out-dir distribution"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.14.0",
+    "debug": "^2.2.0"
+  },
+  "dependencies": {
+    "mz": "^2.4.0"
+  }
+}
