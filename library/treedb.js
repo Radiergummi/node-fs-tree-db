@@ -280,6 +280,7 @@ class TreeDB {
     })
   }
 
+  
   writePath(nodePath, content) {
     // TODO: Stub
   }

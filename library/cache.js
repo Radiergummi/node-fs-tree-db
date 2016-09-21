@@ -65,9 +65,7 @@ class Cache {
       return resolve(storage);
     });
   }
-
   
-
   /**
    * sets a nested key in the cache and applies a TTL removal
    *
